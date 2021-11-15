@@ -8,6 +8,18 @@ This demo brings together a bunch of stuff from
 to wire up a simple service with a REST endpoint that can be used to publish simple data to a Kafka topic and a Consumer that consumes
 the data from the same topic and just logs it.
 
+## Docker stuff
+
+Start it all up:
+```
+$ docker compose up
+```
+
+Take it down:
+```
+$ docker compose down --remove-orphans
+```
+
 ## Massage the endpoints
 
 ### List
